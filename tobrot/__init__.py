@@ -125,8 +125,8 @@ SPEEDTEST = os.environ.get("SPEEDTEST", "speedtest")
 TSEARCH_COMMAND = os.environ.get("TSEARCH_COMMAND", "tshelp")
 BOT_START_TIME = time.time()
 # Website referer
-REFERER = environ.get("REFERER", "")
-REFERER_URL = environ.get("REFERER_URL", "")
+REFERER = os.environ.get("REFERER", "")
+REFERER_URL = os.environ.get("REFERER_URL", "")
 # dict to control uploading and downloading
 gDict = defaultdict(lambda: [])
 # user settings dict #ToDo
