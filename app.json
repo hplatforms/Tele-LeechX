@@ -33,6 +33,14 @@
       "description": "Should be an integer. ID of owner of bot. Get it by sending /info to @MissRose_Bot",
       "value": ""
     },
+    "REFERER_URL": {
+      "description": "403 Hatası veren siteler için",
+      "value": ""
+    },
+    "REFERER": {
+      "description": "403 Hatası veren siteler için",
+      "value": ""
+    },
     "TOGGLE_DOC": {
       "description": "Enter your custom toggle command like toggledoc1@botname and so on. Default is /toggledoc.",
       "value": "toggledoc",
