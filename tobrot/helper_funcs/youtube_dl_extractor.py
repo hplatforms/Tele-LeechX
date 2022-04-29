@@ -8,7 +8,7 @@ import logging
 import os
 
 import pyrogram.types as pyrogram
-from tobrot import DEF_THUMB_NAIL_VID_S, LOGGER
+from tobrot import DEF_THUMB_NAIL_VID_S, LOGGER, REFERER, REFERER_URL
 from tobrot.helper_funcs.display_progress import humanbytes
 from tobrot import HTTP_PROXY
 
